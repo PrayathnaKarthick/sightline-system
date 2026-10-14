@@ -1,0 +1,28 @@
+# Virtual environments
+.venv/
+venv/
+backend/venv/
+backend/.venv/
+
+# Python cache & artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node / Frontend artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# SQLite databases & uploads
+backend/*.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/uploads/thumbnails/*
+!backend/uploads/thumbnails/.gitkeep
+
+# Environment variables & editor files
+.env
+.DS_Store
+.vscode/
